@@ -56,6 +56,8 @@ for i, (nombre, x) in enumerate(señales):
 
     # Graficar señal en el tiempo
     axs[i, 0].plot(t, x)
+    if i == 1:
+        axs[i, 0].set_xlim(-0.2, 0.2)
     axs[i, 0].set_title(nombre + " - Tiempo")
     axs[i, 0].set_xlabel("Tiempo (s)")
     axs[i, 0].set_ylabel("Amplitud")
@@ -164,4 +166,3 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
