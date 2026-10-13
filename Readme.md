@@ -34,7 +34,7 @@ Ejecución
 
 Ejecutar el programa con:
 
-python main.py
+python Main.py
 
 Resultados esperados
 
